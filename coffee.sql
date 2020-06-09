@@ -1,9 +1,0 @@
-DROP DATABASE IF EXISTS coffee_DB;
-CREATE DATABASE coffee_DB;
-USE coffee_DB;
-
-CREATE TABLE ingredients(
-    id AUTO_INCREMENT NOT NULL PRIMARY KEY,
-    ingredient VARCHAR(30) NOT NULL,
-    part INT DEFAULT 0,
-)
