@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
-import WelcomeBanner from './components/WelcomeBanner'
+
+import Wrapper from './components/Wrapper'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <WelcomeBanner />
+    <Wrapper />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
