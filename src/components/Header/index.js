@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <div className='headerDiv'>
-
+            <h1>What kind of coffee are you??</h1>
         </div>
     )
 }
